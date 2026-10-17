@@ -1,0 +1,181 @@
+{
+  "meta": {
+    "title": "Du lịch Thanh Hóa: Thắng lớn mùa hè, lặng lẽ mùa đông",
+    "source_text": "Đọc bài gốc trên Báo Thanh Hóa",
+    "source_url": "https://baothanhhoa.vn/du-lich-thanh-hoa-thang-lon-mua-he-lang-le-mua-dong-305414.htm",
+    "footer": "Bản demo dàn trang scrollytelling, nội dung tóm lược từ bài của Hoài Anh - Nguyễn Đạt (Báo và Phát thanh, Truyền hình Thanh Hóa, 14/10/2026)."
+  },
+  "hero": {
+    "image": "media/hero.webp",
+    "alt": "Du lịch Thanh Hóa: Thắng lớn mùa hè – Lặng lẽ mùa đông. Biển Sầm Sơn đông đúc mùa hè đối lập với khu nghỉ dưỡng yên tĩnh mùa đông."
+  },
+  "sapo": {
+    "image": "media/sapo.webp",
+    "alt": "Thanh Hóa đón hàng triệu lượt khách mỗi mùa hè, nhưng khi hết mùa du lịch biển, nhiều điểm du lịch chững lại. Cần đa dạng hóa sản phẩm, giảm tính mùa vụ, hướng tới du lịch bốn mùa."
+  },
+  "part1": {
+    "subtitle": {
+      "image": "media/sub-title-1.webp",
+      "alt": "Hai mảng màu"
+    },
+    "lead": "Mùa hè đến, Sầm Sơn, Hải Tiến, Hải Hòa bước vào giai đoạn sôi động nhất năm. Nhưng lượng khách phân bổ rất không đều giữa các tháng.",
+    "infographic": {
+      "image": "media/infographic-1.webp",
+      "alt": "Năm 2025: 16,28 triệu lượt khách, tổng thu 45,6 nghìn tỷ đồng. 9 tháng 2026: khoảng 16 triệu lượt khách, đạt 94,9% kế hoạch năm, tổng thu ước đạt khoảng 43 nghìn tỷ đồng."
+    },
+    "stat": {
+      "number": "8,8 triệu",
+      "text": "lượt khách đến phường Sầm Sơn năm 2025, tổng thu gần 17,5 nghìn tỷ đồng. Cơ cấu khách vẫn tập trung vào một số điểm đến và khoảng thời gian nhất định."
+    },
+    "photos": [
+      {
+        "image": "media/image-1.webp",
+        "alt": "Đoàn diễu hành trên đường ven biển",
+        "caption": "Lễ hội đường phố ven biển mùa hè"
+      },
+      {
+        "image": "media/image-2.webp",
+        "alt": "Khu công viên nước nhìn từ trên cao",
+        "caption": "Khu vui chơi, công viên nước đông khách"
+      }
+    ]
+  },
+  "gap": {
+    "title": "4 tháng chạy hết công suất, 8 tháng chờ khách",
+    "text": "Từ tháng 5 đến hết tháng 8, giao thông, môi trường, cấp nước và rác thải đều chịu áp lực. Phần còn lại của năm, chi phí bảo trì và khấu hao vẫn phát sinh trong khi công suất tụt mạnh.",
+    "hot_from": 5,
+    "hot_to": 8,
+    "months_note": "Tháng cao điểm được tô cam",
+    "hot_label": "Mùa hè",
+    "hot_value": 100,
+    "cold_label": "Mùa đông",
+    "cold_value": 5,
+    "note": "Tỷ lệ đặt phòng tại một khách sạn ở Sầm Sơn, theo giám đốc cơ sở này. Khách mùa đông chủ yếu đặt phòng để họp, tổ chức sự kiện."
+  },
+  "effects": {
+    "title": "Hệ lụy với doanh nghiệp và người lao động",
+    "cols": [
+      {
+        "title": "Mùa cao điểm",
+        "text": "Phải huy động thêm nhân lực, tăng năng lực phục vụ để đáp ứng lượng khách tăng đột biến."
+      },
+      {
+        "title": "Mùa thấp điểm",
+        "text": "Lao động thời vụ thiếu việc ổn định, doanh nghiệp khó giữ đội ngũ có kinh nghiệm và phải tính kỹ chi phí vận hành."
+      }
+    ]
+  },
+  "part2": {
+    "subtitle": {
+      "image": "media/sub-title-2.webp",
+      "alt": "Biển tiềm năng thành sức hút"
+    },
+    "intro": "Thanh Hóa có nhiều điều kiện để làm du lịch bốn mùa: di tích lịch sử, di sản văn hóa, cảnh quan sinh thái và không gian văn hóa cộng đồng.",
+    "band1": {
+      "image": "media/image-5.webp",
+      "alt": "Di tích với mái ngói đỏ giữa rừng cây xanh",
+      "caption": "Di sản và cảnh quan: lợi thế để giữ chân khách ngoài mùa tắm biển"
+    },
+    "destinations": [
+      {
+        "name": "Thành Nhà Hồ",
+        "desc": "Di sản văn hóa thế giới"
+      },
+      {
+        "name": "Lam Kinh",
+        "desc": "Di tích quốc gia đặc biệt"
+      },
+      {
+        "name": "Đền Bà Triệu",
+        "desc": "Văn hóa, kiến trúc nghệ thuật"
+      },
+      {
+        "name": "Đền Nưa - Am Tiên",
+        "desc": "Văn hóa, tâm linh"
+      },
+      {
+        "name": "Vườn quốc gia Bến En",
+        "desc": "Sinh thái"
+      },
+      {
+        "name": "Pù Luông",
+        "desc": "Khu bảo tồn thiên nhiên"
+      }
+    ],
+    "band2": {
+      "image": "media/image-9.webp",
+      "alt": "Khu nghỉ dưỡng bên hồ lúc hoàng hôn",
+      "caption": "Nghỉ dưỡng, sinh thái cộng đồng: hướng phát triển quanh năm"
+    },
+    "outro": "Điểm nghẽn: nhiều nơi vẫn dừng ở tham quan trong ngày, chưa nối văn hóa, ẩm thực và đời sống cộng đồng thành hành trình đủ sức giữ khách ở lại lâu hơn."
+  },
+  "part3": {
+    "subtitle": {
+      "image": "media/sub-title-3.webp",
+      "alt": "Những chuyển động từ thực tiễn"
+    },
+    "steps": [
+      {
+        "time": "Cuối tháng 8/2026",
+        "title": "Thí điểm sản phẩm biển mới",
+        "text": "Chợ hải sản “Một phiên chợ - Ngàn hương vị biển” và không gian ngư nghiệp “Chạm nhịp sống làng chài”, gắn với văn hóa bản địa và đời sống ngư dân.",
+        "image": "media/image-12.webp",
+        "alt": "Du khách cùng ngư dân kéo lưới trên bãi biển"
+      },
+      {
+        "time": "Mùa thu 2026",
+        "title": "Phố đi bộ, chợ đêm, âm nhạc ven biển",
+        "text": "Đêm nhạc “Chill bên biển” tại cầu cảng Hải Tiến mở rộng trải nghiệm ngoài tắm biển và nghỉ dưỡng.",
+        "image": "media/image-14.webp",
+        "alt": "Sân khấu biểu diễn ngoài trời về đêm ở Hải Tiến"
+      },
+      {
+        "time": "2026",
+        "title": "Sự kiện thể thao, văn hóa",
+        "text": "Festival Diều Sầm Sơn lần thứ nhất và giải Marathon “Sầm Sơn mở rộng”.",
+        "image": "media/image-14.webp",
+        "alt": "Sân khấu biểu diễn ngoài trời về đêm ở Hải Tiến"
+      },
+      {
+        "time": "8 đến 11/10/2026",
+        "title": "Liên hoan văn hóa ẩm thực xứ Thanh",
+        "text": "Ban tổ chức cũng thừa nhận còn hạn chế về dự báo lượng khách, phân luồng giao thông và vệ sinh môi trường.",
+        "image": "media/image-14.webp",
+        "alt": "Sân khấu biểu diễn ngoài trời về đêm ở Hải Tiến"
+      }
+    ],
+    "festival": {
+      "image": "media/infographic-3.webp",
+      "alt": "Liên hoan văn hóa ẩm thực xứ Thanh 2026: hơn 400 nghìn lượt khách, 4 ngày từ 8 đến 11/10, doanh số 40 tỷ đồng bán trực tiếp và trực tuyến."
+    },
+    "tours_title": "Hai tour kết nối điểm đến",
+    "tours": {
+      "image": "media/infographic-2.webp",
+      "alt": "Tour nội vùng: Sầm Sơn, Đền Độc Cước, Hòn Trống Mái, Đền Cô Tiên, Tượng đài con tàu Tập kết ra Bắc, Quảng trường biển, Chợ Cột Đỏ. Tour nội tỉnh: Sầm Sơn, Thành Nhà Hồ, Lam Kinh."
+    },
+    "tours_note": "Song song là chiến dịch số “Check-in biển Thanh Hóa 2026”."
+  },
+  "voices": {
+    "title": "Những góc nhìn trong cuộc",
+    "items": [
+      {
+        "tab": "Hiệp hội Du lịch",
+        "text": "Chủ tịch Hiệp hội Du lịch tỉnh cho rằng cần phát triển đồng bộ du lịch biển, văn hóa lịch sử, tâm linh và cộng đồng. Bên cạnh lượng khách và doanh thu, tỉnh phải chú trọng hiệu quả đầu tư, thời gian lưu trú, mức chi tiêu và khả năng duy trì kinh doanh mùa thấp điểm.",
+        "author": "Lê Xuân Thảo, Hiệp hội Du lịch tỉnh Thanh Hóa"
+      },
+      {
+        "tab": "Doanh nghiệp",
+        "text": "Giám đốc một công ty du lịch thừa nhận du lịch xứ Thanh vẫn nặng tính mùa vụ. Theo bà, cần thêm các hoạt động nghỉ dưỡng, trải nghiệm văn hóa, sinh thái phù hợp từng mùa.",
+        "author": "Dương Thị Hà, Công ty CP Giáo dục & Du lịch Athena"
+      },
+      {
+        "tab": "Sở VHTTDL",
+        "text": "Năm 2026 mở đầu chương trình phát triển du lịch 2026 - 2030 theo hướng chất lượng, bền vững: đa dạng hóa sản phẩm, nâng chất lượng dịch vụ, liên kết vùng, chuyển đổi số, và thử thêm du lịch nông nghiệp, kinh tế đêm, mạo hiểm, sự kiện.",
+        "author": "Lê Văn Trung, Giám đốc Sở Văn hóa, Thể thao và Du lịch"
+      }
+    ]
+  },
+  "closing": {
+    "lead": "Sức bền của ngành du lịch không chỉ đo bằng lượng khách mùa cao điểm, mà bằng khả năng giữ cơ sở hoạt động hiệu quả quanh năm."
+  }
+}
