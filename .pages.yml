@@ -1,0 +1,298 @@
+media:
+  input: media
+  output: media
+  extensions:
+  - webp
+  - jpg
+  - jpeg
+  - png
+content:
+- name: site
+  label: Nội dung e-magazine
+  type: file
+  path: content/site.json
+  fields:
+  - name: meta
+    label: Thông tin chung
+    type: object
+    fields:
+    - name: title
+      label: Tiêu đề bài
+      type: string
+    - name: source_text
+      label: Chữ của liên kết bài gốc
+      type: string
+    - name: source_url
+      label: Đường dẫn bài gốc
+      type: string
+    - name: footer
+      label: Dòng ghi nguồn cuối trang
+      type: text
+  - name: hero
+    label: Ảnh đầu trang (hero)
+    type: object
+    fields:
+    - name: image
+      label: Ảnh
+      type: image
+    - name: alt
+      label: Mô tả ảnh (cho người khiếm thị)
+      type: string
+  - name: sapo
+    label: Ảnh sapo
+    type: object
+    fields:
+    - name: image
+      label: Ảnh
+      type: image
+    - name: alt
+      label: Mô tả ảnh (cho người khiếm thị)
+      type: string
+  - name: part1
+    label: 'Phần 1: Hai mảng màu'
+    type: object
+    fields:
+    - name: subtitle
+      label: Ảnh tiêu đề phần
+      type: object
+      fields:
+      - name: image
+        label: Ảnh
+        type: image
+      - name: alt
+        label: Mô tả ảnh (cho người khiếm thị)
+        type: string
+    - name: lead
+      label: Đoạn dẫn
+      type: text
+    - name: infographic
+      label: Infographic số liệu
+      type: object
+      fields:
+      - name: image
+        label: Ảnh
+        type: image
+      - name: alt
+        label: Mô tả ảnh (cho người khiếm thị)
+        type: string
+    - name: stat
+      label: Thẻ số liệu nổi bật
+      type: object
+      fields:
+      - name: number
+        label: Con số
+        type: string
+      - name: text
+        label: Giải thích
+        type: text
+    - name: photos
+      label: Ảnh minh họa
+      type: object
+      fields:
+      - name: image
+        label: Ảnh
+        type: image
+      - name: alt
+        label: Mô tả ảnh
+        type: string
+      - name: caption
+        label: Chú thích
+        type: string
+      list: true
+  - name: gap
+    label: Biểu đồ mùa cao điểm / thấp điểm
+    type: object
+    fields:
+    - name: title
+      label: Tiêu đề
+      type: string
+    - name: text
+      label: Đoạn mở đầu
+      type: text
+    - name: hot_from
+      label: Tháng cao điểm bắt đầu
+      type: number
+    - name: hot_to
+      label: Tháng cao điểm kết thúc
+      type: number
+    - name: months_note
+      label: Ghi chú dưới dải tháng
+      type: string
+    - name: hot_label
+      label: Nhãn mùa hè
+      type: string
+    - name: hot_value
+      label: Công suất mùa hè (%)
+      type: number
+    - name: cold_label
+      label: Nhãn mùa đông
+      type: string
+    - name: cold_value
+      label: Công suất mùa đông (%)
+      type: number
+    - name: note
+      label: Nguồn số liệu
+      type: text
+  - name: effects
+    label: Hệ lụy
+    type: object
+    fields:
+    - name: title
+      label: Tiêu đề
+      type: string
+    - name: cols
+      label: Các cột (cột 1 viền cam, các cột sau viền xanh)
+      type: object
+      fields:
+      - name: title
+        label: Tiêu đề cột
+        type: string
+      - name: text
+        label: Nội dung
+        type: text
+      list: true
+  - name: part2
+    label: 'Phần 2: Biển tiềm năng thành sức hút'
+    type: object
+    fields:
+    - name: subtitle
+      label: Ảnh tiêu đề phần
+      type: object
+      fields:
+      - name: image
+        label: Ảnh
+        type: image
+      - name: alt
+        label: Mô tả ảnh (cho người khiếm thị)
+        type: string
+    - name: intro
+      label: Đoạn mở đầu
+      type: text
+    - name: band1
+      label: Ảnh toàn màn hình 1
+      type: object
+      fields:
+      - name: image
+        label: Ảnh
+        type: image
+      - name: alt
+        label: Mô tả ảnh (cho người khiếm thị)
+        type: string
+      - name: caption
+        label: Chú thích ảnh
+        type: string
+    - name: destinations
+      label: Điểm đến
+      type: object
+      fields:
+      - name: name
+        label: Tên
+        type: string
+      - name: desc
+        label: Mô tả ngắn
+        type: string
+      list: true
+    - name: band2
+      label: Ảnh toàn màn hình 2
+      type: object
+      fields:
+      - name: image
+        label: Ảnh
+        type: image
+      - name: alt
+        label: Mô tả ảnh (cho người khiếm thị)
+        type: string
+      - name: caption
+        label: Chú thích ảnh
+        type: string
+    - name: outro
+      label: Đoạn kết phần
+      type: text
+  - name: part3
+    label: 'Phần 3: Những chuyển động từ thực tiễn'
+    type: object
+    fields:
+    - name: subtitle
+      label: Ảnh tiêu đề phần
+      type: object
+      fields:
+      - name: image
+        label: Ảnh
+        type: image
+      - name: alt
+        label: Mô tả ảnh (cho người khiếm thị)
+        type: string
+    - name: steps
+      label: Các mốc (ảnh nền đổi theo từng mốc)
+      type: object
+      fields:
+      - name: time
+        label: Thời gian
+        type: string
+      - name: title
+        label: Tiêu đề
+        type: string
+      - name: text
+        label: Nội dung
+        type: text
+      - name: image
+        label: Ảnh nền
+        type: image
+      - name: alt
+        label: Mô tả ảnh
+        type: string
+      list: true
+    - name: festival
+      label: Infographic liên hoan
+      type: object
+      fields:
+      - name: image
+        label: Ảnh
+        type: image
+      - name: alt
+        label: Mô tả ảnh (cho người khiếm thị)
+        type: string
+    - name: tours_title
+      label: Tiêu đề tour
+      type: string
+    - name: tours
+      label: Infographic tour
+      type: object
+      fields:
+      - name: image
+        label: Ảnh
+        type: image
+      - name: alt
+        label: Mô tả ảnh (cho người khiếm thị)
+        type: string
+    - name: tours_note
+      label: Ghi chú cuối phần
+      type: string
+  - name: voices
+    label: Góc nhìn trong cuộc
+    type: object
+    fields:
+    - name: title
+      label: Tiêu đề
+      type: string
+    - name: items
+      label: Ý kiến
+      type: object
+      fields:
+      - name: tab
+        label: Tên thẻ
+        type: string
+      - name: text
+        label: Nội dung
+        type: text
+      - name: author
+        label: Người phát biểu
+        type: string
+      list: true
+  - name: closing
+    label: Đoạn kết
+    type: object
+    fields:
+    - name: lead
+      label: Câu kết
+      type: text
